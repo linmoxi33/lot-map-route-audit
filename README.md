@@ -90,7 +90,7 @@ Exit codes:
 node tests/run.mjs
 ```
 
-17 cases, no test framework: 12 behavioural (subprocess exit codes and JSON output), plus syntax, pinned-hash, determinism and `--classify` loader checks. Last run: **17 passed, 0 failed**.
+17 cases, no test framework: 15 behavioural (subprocess exit codes and JSON output), plus a syntax check and a pinned-hash check. Last run: **17 passed, 0 failed**.
 
 ## Differences from similar projects
 

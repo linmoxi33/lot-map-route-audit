@@ -1,0 +1,8 @@
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:01Z","tool_name":"Bash","tool_input":{"command":"npm test","description":"run tests"}}
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:02Z","tool_name":"Read","tool_input":{"file_path":"/tmp/demo/src/index.ts"}}
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:03Z","tool_name":"WebFetch","tool_input":{"url":"https://example.com/docs?q=1"}}
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:04Z","tool_name":"TaskCreate","tool_input":{"subject":"write tests","description":"cover the CLI"}}
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:05Z","tool_name":"EnterPlanMode","tool_input":{"reason":"plan the work"}}
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:06Z","tool_name":"TaskCreate","tool_input":{"subject":"ship it"}}
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:07Z","tool_name":"mcp__github__search_code","tool_input":{"query":"classify"}}
+{"hook_event_name":"PreToolUse","session_id":"s-1","timestamp":"2026-11-13T10:00:08Z","tool_name":"Skill","tool_input":{"skill":"pdf"}}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "tool": "lot-map-route-audit",
+  "tool_version": "1.0.0",
+  "classifier": {
+    "file": "lot-map-classify.ts",
+    "sha256": "5325119d8de9840377cbf84ae03565d0eb5c5335b77cf8b2212603342804dfc8"
+  },
+  "totals": {
+    "events": 8,
+    "stations": {
+      "shell": 4,
+      "files": 1,
+      "web": 2,
+      "skills": 1
+    },
+    "silent_fallback_events": 3,
+    "tools_with_silent_fallback": 2
+  },
+  "findings": [
+    {
+      "tool": "EnterPlanMode",
+      "calls": 1,
+      "first_seen": "2026-11-13T10:00:05Z",
+      "last_seen": "2026-11-13T10:00:05Z",
+      "witness": {},
+      "station": "shell",
+      "witness_keys": []
+    },
+    {
+      "tool": "TaskCreate",
+      "calls": 2,
+      "first_seen": "2026-11-13T10:00:04Z",
+      "last_seen": "2026-11-13T10:00:06Z",
+      "witness": {},
+      "station": "shell",
+      "witness_keys": []
+    }
+  ]
+}
